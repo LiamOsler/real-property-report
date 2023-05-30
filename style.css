@@ -1,0 +1,239 @@
+/******************************************************************** 
+   CSS Stylesheet
+   Property Online Project
+   January 2017
+   Liam Osler
+   SUTN Legal Aspects of Surverying
+   SUTN Technical Writing
+*********************************************************************/
+ 
+ 
+/*Index Page Main Jumbotron Settings*/
+
+body{
+	font-family: 'Inconsolata', monospace;
+	font-size; 18px;
+}
+#main
+	
+	 h1{
+		text-align: left;
+	 }
+	p{
+		text-align: left;
+	}
+
+#main{
+	margin-top: 80px;
+	margin-left:0px;
+}
+
+#map{
+	height:60vh;
+	width:100%;
+	border-radius: 6px;
+	margin-top: 20px;
+}
+
+#property-information h1{
+	text-align: left;
+}
+#property-information h2{
+	text-align: left;	
+}
+#property-information h3{
+	text-align: left;
+	margin-top: 10px;
+}
+#property-information h4{
+	text-align: left;	
+}
+#property-information p{
+	font-size: 18px;
+	text-align: left;
+	
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+.poi{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 100px;
+	padding-right: 30px;
+}
+
+a.anchor{
+	display:block;
+	position:relative;
+	top:-80px;
+	visibility: hidden;
+}
+
+.table-link a{
+	font-size: 20px;
+	color: black;
+	
+}
+.table-link a:hover{
+	color: red;
+}
+.table-link a:visited{
+	color: indigo;
+}
+
+.tableheader{
+	padding-left: 15px;
+}
+
+#doctable td{
+	font-size:12px;
+}
+
+#doctable th{
+	padding-left: 10px;
+}
+
+#doctable_wrapper{
+	color: black;
+}
+
+.jumbotron{
+	background: -moz-linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.39) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.39) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.39) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#63000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.legend{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.legend td{
+	height: 20px;
+	font-size: 22px;
+}
+
+#leg-lot72XY{
+	height: 20px;
+	width: 50px;
+	background-color: #FF0000;
+	margin-right: 20px;
+	border-color: #000000;
+	border-width: 3px;
+	border-style: solid;
+}
+
+#leg-lot72BZ{
+	height: 20px;
+	width: 50px;
+	background-color: #0000ff;
+	margin-right: 20px;
+	border-color: #000000;
+	border-width: 3px;
+	border-style: solid;
+}
+
+#leg-lot72A{
+	height: 20px;
+	width: 50px;
+	background-color: #00ff00;
+	margin-right: 20px;
+	border-color: #000000;
+	border-width: 3px;
+	border-style: solid;
+}
+
+#leg-lot72R{
+	height: 20px;
+	width: 50px;
+	background-color: #ffff00;
+	margin-right: 20px;
+	border-color: #000000;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.print-link{
+	position: absolute;
+	top: 60px;
+} 
+
+.container{
+	width: 90%;
+}
+
+.pol-article{
+	font-size: 20px;
+}
+
+footer{
+	background-color: #161616;
+	padding-right: 100px;
+	padding-top: 20px;
+	height: 160px;
+}
+footer p{
+	color: white;
+	text-align: right;
+}
+
+footer h3{
+	margin-top:0px;
+	padding-top: 0px;
+	text-align: right;
+}
+
+
+#full-width{
+
+	margin-bottom: 20px;
+}
+
+.highlight{
+	color: white;
+	font-weight: bold;
+}
+
+#page-wrapper{
+	padding-left:60px;
+	padding-right:60px;
+}
+
+#summary-text{
+	font-size: 20px;
+}
+
+#exec-summary-text{
+	font-size: 20px;
+}
+
+#intro-text{
+	font-size: 20px;
+}
+
+#methods{
+	font-size: 20px;
+}
+
+#objectives{
+	font-size: 20px;
+}
+
+#scope{
+	font-size: 20px;
+}
+
+#problems{
+	font-size: 20px;
+}
+
+#conclusion{
+	font-size:20px;
+}
+li{
+	font-size: 20px;
+}
